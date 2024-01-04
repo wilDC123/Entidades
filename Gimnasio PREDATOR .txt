@@ -1,0 +1,11 @@
+GIMNASIO:EL GIMNASIO PREDATOR DESEA TENER UNA BASE DE DATOS QUE ALMACENE LOS DATOS DE LOS CLIENTES,MEMBRESIA A ELEGIR,ENTRENADOR QUE LO ASESORA
+
+un cliente tiene una o varias membresias (1.M)
+una membresia tiene varios clientes (1.M) (1.M) TIENE
+
+un cliente puede asistir a varias clases (1.M)
+una clase puede ser asistida por varios clientes (1.M) (N.M) ASISTE
+
+un entrenador imparte varias clases (1.M)
+una clase puede ser impartida por varios entrenadores (1.M) (1.N) IMPARTE
+
