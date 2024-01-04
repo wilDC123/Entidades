@@ -1,0 +1,10 @@
+la Biblioteca Central, desea tener una base de datos que almacene los datos principales de los libros, el genero al que pertenece, las personas que los alquile y la adquisicion de la credencial.
+---------------------------------------------------------------------------
+un libro pertenece a varios generos               (1:M)
+un genero pertenece a varios libros               (1:M)    (M:N) Pertenece
+       ------------------------------------------------------------
+una persona alquila varios libros                 (1:M)    
+un libro es alquilada por una persona             (1:1)    (M:1) alquila
+       ------------------------------------------------------------
+una persona adquiere una credencial               (1:1)
+una credencial es adquirida por varias personas   (1:M)    (1:M) adquisicion
